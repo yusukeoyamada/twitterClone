@@ -1,0 +1,16 @@
+<h1>つぶやき一覧</h1>
+
+<p><%= notice %></p>
+
+<table>
+
+<% @tweets.each do |tweet| %>
+  <tr>
+    <td class="index_tweet_content"><%= tweet.content %></td>
+    <td class="index_tweet_content"><%= link_to '編集', edit_tweet_path(tweet.id), class: 'btn btn-warning' %></td>
+    <td class="index_tweet_content"><%= link_to '削除', tweet_path(tweet.id), method: :delete, data: { confirm: '本当に削除していいですか？' }, class: 'btn btn-danger' %></td>
+  </tr>
+<% end %>
+</table>
+<br>
+<%= link_to '新しくつぶやきを投稿する', new_tweet_path %>

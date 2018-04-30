@@ -1,0 +1,117 @@
+header {
+  width: 100%;
+  background-color: #66CCFF;
+  height: 54px;
+}
+
+header ul {
+  margin: 0 auto;
+  list-style: none;
+}
+
+header ul a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+header li {
+  float: left;
+  width: auto;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-nav ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("/images/OTB_Company_Blue.png.img.fullhd.medium.png");
+  background-attachment: fixed;
+}
+
+.main-header img {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  padding-top: 15%;
+}
+
+.about {
+  background-color: white;
+  color: #333;
+  padding: 80px;
+}
+
+.function {
+  background-color: #e9e9e9;
+  padding: 80px;
+  padding-bottom: 185px;
+}
+
+.function-images {
+  width: 100%;
+  display: table;
+  margin-top: 60px;
+  table-layout: fixed;
+}
+
+.function-image {
+  display: table-cell;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+
+.incomplete {
+  border: solid 3px #2c3e50;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index_tweet_content {
+  padding: 5px;
+  border: solid 3px #2c3e50;
+}
+
+.tweet_content{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.error_message{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  width: 100%;
+  background-color: #0099FF;
+  padding: 20px 0 10px 0;
+  color: white;
+  margin: auto;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+}
